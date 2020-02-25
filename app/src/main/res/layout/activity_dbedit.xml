@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="EDIT DATA MAHASISWA"
+        style="@style/TextAppearance.AppCompat.Large"/>
+        <EditText
+            android:id="@+id/nim_mhs_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NIM"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/nama_mhs_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Mahasiswa"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/semester_mhs_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Semester"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/ipk_mhs_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="IPK"
+            android:inputType="numberDecimal" />
+    <Spinner
+        android:id="@+id/jurusan_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/jurusan" />
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>

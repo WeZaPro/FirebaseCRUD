@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FirebaseCRUD</string>
+    <array name="jurusan">
+        <item>Teknik Informatika</item>
+        <item>DKV</item>
+        <item>Ilmu Komunikasi</item>
+        <item>Broadcasting</item>
+    </array>
+</resources>
